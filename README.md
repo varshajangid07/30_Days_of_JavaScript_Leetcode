@@ -7,10 +7,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/varshajangid07/30_Days_of_JavaScript_Leetcode/tree/main/3501-maximize-active-section-with-trade-ii/) | Hard |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3501-maximize-active-section-with-trade-ii](https://github.com/varshajangid07/30_Days_of_JavaScript_Leetcode/tree/main/3501-maximize-active-section-with-trade-ii/) | Hard |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
