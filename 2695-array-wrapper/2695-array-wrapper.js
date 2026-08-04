@@ -3,22 +3,23 @@
  * @return {void}
  */
 var ArrayWrapper = function(nums) {
-    this.sum=nums.reduce((acc, curr)=>acc+curr, 0);
-    this.str=`[${nums.join(',')}]`;
+    this.nums=nums;
 };
 
 /**
  * @return {number}
  */
 ArrayWrapper.prototype.valueOf = function() {
-    return this.sum;
+    let sum=0;
+    for(let num of this.nums) sum+=num;
+    return sum;
 }
 
 /**
  * @return {string}
  */
 ArrayWrapper.prototype.toString = function() {
-    return this.str;
+    return "["+this.nums.join(",")+"]";
 }
 
 /**
